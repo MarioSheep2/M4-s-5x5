@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.bigcraft.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CraftingScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

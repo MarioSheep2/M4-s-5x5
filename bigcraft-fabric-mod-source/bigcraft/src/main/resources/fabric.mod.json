@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "bigcraft",
+  "version": "${version}",
+  "name": "Passcode Big Crafting",
+  "description": "Adds a passcode-locked panel under the crafting table that unlocks a 5x5 crafting grid.",
+  "authors": [
+    "you"
+  ],
+  "contact": {},
+  "license": "CC0-1.0",
+  "icon": "",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.bigcraft.BigCraftMod"
+    ],
+    "client": [
+      "com.example.bigcraft.client.BigCraftClient"
+    ]
+  },
+  "mixins": [
+    "bigcraft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
