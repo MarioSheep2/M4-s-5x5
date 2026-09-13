@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: bigcraft
+        working-directory: bigcraft-fabric-mod-source/bigcraft
     steps:
       - uses: actions/checkout@v4
 
@@ -29,4 +29,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: bigcraft-jar
-          path: bigcraft/build/libs/*.jar
+          path: bigcraft-fabric-mod-source/bigcraft/build/libs/*.jar
